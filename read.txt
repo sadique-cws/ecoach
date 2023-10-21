@@ -1,0 +1,14 @@
+Coaching application with full Feature
+
+e-Coach
+
+1. students 
+	roll, name, contact, gender, address, email, password, status = boolean
+2. categories
+	cat_id, cat_title , description = nullable
+
+3. courses
+	1. course_id, title, price, discount_price, image, description, instructor, lang, category_id
+
+4.  student_courses
+	1. sc_id, student_id, course_id, payment_id = null
